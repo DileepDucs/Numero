@@ -94,4 +94,9 @@ class ConverterTests: XCTestCase {
     XCTAssertEqual(result, "MMMCMXCIX", "Conversion for 3999 is incorrect")
   }
     
+    func addMyCustomCommon() {
+        let result = converter.convert(3999)
+        XCTAssertEqual(result, "MMMCMXCIX", "Conversion for 3999 is incorrect")
+    }
+    
 }
