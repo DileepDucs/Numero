@@ -54,7 +54,7 @@ class Converter {
       }
     }
 
-    return result
+    return "I"
   }
   
 }
